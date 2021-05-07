@@ -23,4 +23,7 @@ Files surrounding the assignment are hosted in this tab. They include the entity
 
 ### Data
 
-The data in this repository folder was used in the generation of the database values. The format folder host the data files with formulas to convert the main datatype for SQL insert statements. The main data file hosts the raw data for insert into the database. 
+There are three different data tabs displaying the same or similar data for different use cases. 
+* main - the main data file containing tables as tabs
+* distributed - tables split into folders with insert statement formating
+* distributed-raw - raw distributed files for upload into python (SEAquel-Surf-Shop/scripts/tools/manipulation)

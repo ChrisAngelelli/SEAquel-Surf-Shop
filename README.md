@@ -2,6 +2,8 @@
 
 This repository hosts the seaquelcustoms database, a SQL database resposible for storing and tracking of the SEAqueal Surf Shop's business operational and inventory data. 
 
+Big shout out to all those involved: Linh Nguyen, Caroline McCraw, Nigel Brooks, and Meghan Walthers
+
 ## Layout
 
 The file system is split into scripts, data, documents
@@ -10,11 +12,13 @@ The file system is split into scripts, data, documents
 
 scripts is broken into two components:
 * createDB - hosts the SQL files to create the database 
-* support - host python/data generation scripts 
+* tools - hosts python data for data manipulation and generation
+  * manipulation - skeleton structure for loading data into python environment and changing data types of raw data
+  * generation - responsible for data generation of the raw creation table data
 
 ### Documents
 
-Files surrounding the assignment are hosted in this tab. They include the entity relationship model, logical datamodel, and business documentation of SEAqueal Surf Shop. 
+Files surrounding the assignment are hosted in this tab. They include the entity relationship model, logical datamodel, and business documentation of the SEAqueal Surf Shop. 
 
 
 ### Data

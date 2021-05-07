@@ -10,7 +10,7 @@ The file system is split into scripts, data, documents
 
 scripts is broken into two components:
 * createDB - hosts the SQL files to create the database 
-* supportFiles - host python and data generation scripts 
+* support - host python/data generation scripts 
 
 ### Documents
 

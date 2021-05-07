@@ -13,7 +13,7 @@ The file system is split into scripts, data, documents
 scripts is broken into two components:
 * createDB - hosts the SQL files to create the database 
 * tools - hosts python data for data manipulation and generation
-  * manipulation - skeleton structure for loading data into python environment and changing data types of raw data
+  * manipulation - skeleton structure for loading data into python environment and changing data types of raw data, use this script for future advanced manipulations in python. 
   * generation - responsible for data generation of the raw creation table data
 
 ### Documents
